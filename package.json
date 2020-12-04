@@ -1,0 +1,33 @@
+{
+  "name": "backend-tele",
+  "version": "1.0.0",
+  "description": "Telegram",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-jwt": "^5.3.1",
+    "http": "0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "pg-promise": "^8.4.4",
+    "twilio": "^3.52.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gressia10/ShoppingCar.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Gressia10/ShoppingCar/issues"
+  },
+  "homepage": "https://github.com/Gressia10/ShoppingCar#readme"
+}
